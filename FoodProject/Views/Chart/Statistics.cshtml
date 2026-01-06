@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Statistics";
+    // Layout isminin layout.cshtml olduğundan emin ol (genelde _Layout.cshtml olur)
+    Layout = "~/Views/Shared/layout.cshtml";
+}
+
+<link href="~/web2/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="~/web2/css/font-awesome.css">
+<link href="~/web2/css/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />
+
+<div class="total-content">
+    <div class="list_of_members">
+        <div class="sales" style="background-color:#1abc9c">
+            <div class="icon-text">
+                <h3>@ViewBag.d1</h3>
+                <p>Total Food</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="new-users" style="background-color:#2ecc71">
+            <div class="icon-text">
+                <h3>@ViewBag.d2</h3>
+                <p>Total Category</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="orders" style="background-color:#3498db">
+            <div class="icon-text">
+                <h3>@ViewBag.d3</h3>
+                <p>Fruit Count</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="visitors" style="background-color:#9b59b6">
+            <div class="icon-text">
+                <h3>@ViewBag.d4</h3>
+                <p>Vegetable Count</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="total-content">
+    <div class="list_of_members">
+        <div class="sales" style="background-color:#E5BA41">
+            <div class="icon-text">
+                <h3>@ViewBag.d5</h3>
+                <p>Sum Food</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="new-users" style="background-color:#4B9DA9">
+            <div class="icon-text">
+                <h3>@ViewBag.d6</h3>
+                <p>Drinks Count</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="orders" style="background-color:#2980b9">
+            <div class="icon-text">
+                <h3>@ViewBag.d7</h3>
+                <p>Max Stock Food</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="visitors" style="background-color:#90AB8B">
+            <div class="icon-text">
+                <h3>$ @ViewBag.d8</h3>
+                <p>Food Price Avg.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="total-content">
+    <div class="list_of_members">
+        <div class="sales" style="background-color:#E06B80">
+            <div class="icon-text">
+                <h3>@ViewBag.d9</h3>
+                <p>Inactive Category</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="new-users" style="background-color:#628141">
+            <div class="icon-text">
+                <h3>$ @ViewBag.d10</h3>
+                <p>Total Inventory Value</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="orders" style="background-color:#607B8F">
+            <div class="icon-text">
+                <h3>@ViewBag.d11</h3>
+                <p>Min Stock</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="visitors" style="background-color:#F87B1B">
+            <div class="icon-text">
+                <h3>$ @ViewBag.d12</h3>
+                <p> Drink Price Avg.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+
+
+<script src="~/web2/js/jquery.min.js"></script>
+<script src="~/web2/js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="~/web2/js/main.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="~/web2/js/Chart1.js"></script>

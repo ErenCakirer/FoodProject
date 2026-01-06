@@ -1,0 +1,17 @@
+﻿@model FoodProject.Models.Category
+@{
+    ViewData["Title"] = "CategoryGet";
+    Layout = "~/Views/Shared/layout.cshtml";
+}
+<br />
+@using (Html.BeginForm("CategoryAdd", "Category", FormMethod.Post))
+{
+    <b>Category Name</b>
+    @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.CategoryName, "", new { @style = "color:red" })
+    <br />
+    <b>Description</b>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-warning">Update</button>
+}
