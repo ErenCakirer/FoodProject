@@ -1,3 +1,7 @@
+
+
+Bu proje, kapsamlı bir Eğitim Kampı sürecinde geliştirilmiştir. -
+
 🥦 CoreAndFood: Modern Market Yönetim Sistemi
 Bu proje, ASP.NET Core 6.0 MVC mimarisi kullanılarak geliştirilmiş, modern ve dinamik bir gıda stok yönetim panelidir. Proje, hem güçlü bir backend yapısı hem de kullanıcı dostu bir arayüz sunmak üzere tasarlanmıştır.
 
